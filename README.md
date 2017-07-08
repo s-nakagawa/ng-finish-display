@@ -7,7 +7,7 @@ $timeoutを使わずに実現するDirective
 ## Description
 
 以下ブログを参照
-()
+(http://kanawaga.hatenablog.com/entry/2017/07/08/181422)
 
 ## Licence
 
