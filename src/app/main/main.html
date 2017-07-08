@@ -1,0 +1,22 @@
+<style>
+  div.container {
+    width: 2000px;
+  }
+  .row {
+    margin-top: 20px;
+  }
+</style>
+<div style="height: 300px;"></div>
+<div class="container">
+  <div class="col-xs-2 row" ng-repeat="item in main.itemList track by $index">
+    <div>
+      <div class="col-xs-3">ID</div>
+      <div class="col-xs-9">{{item.id}}</div>
+    </div>
+    <div>
+      <div class="col-xs-3">Name</div>
+      <div class="col-xs-9">{{item.name}}</div>
+    </div>
+    <ng-finish-display notify-id="::main.eventName" ng-if="::$last"></ng-finish-display>
+  </div>
+</div>
